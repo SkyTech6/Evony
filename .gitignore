@@ -1,5 +1,6 @@
 # Server Files
 servers/*
+config.json
 
 # Logs
 logs
