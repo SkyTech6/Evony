@@ -55,7 +55,7 @@ module.exports = {
         let message = await interaction.reply({ embeds: [ruleEmbed], components: [row] });
 
         let collector = message.createMessageComponentCollector({
-            time: 43200000,
+            time: 172800000,
         });
 
         let votedYes = new Array();
